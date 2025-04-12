@@ -1,0 +1,30 @@
+DOS Detection System Log
+========================================
+2025-04-12 12:09:24 | ALERT | {'score': -0.05, 'packets_sec': 544.6, 'syn_sec': 0.0, 'total_packets': 5446, 'unique_ips': 5, 'avg_pkt_size': 42.5}
+2025-04-12 12:09:35 | ALERT | {'score': -0.05, 'packets_sec': 1320.6, 'syn_sec': 7.8, 'total_packets': 13206, 'unique_ips': 5, 'avg_pkt_size': 42.6}
+2025-04-12 12:09:45 | ALERT | {'score': -0.05, 'packets_sec': 1691.6, 'syn_sec': 0.0, 'total_packets': 16916, 'unique_ips': 4, 'avg_pkt_size': 42.1}
+2025-04-12 12:09:55 | ALERT | {'score': -0.05, 'packets_sec': 1732.2, 'syn_sec': 0.0, 'total_packets': 17322, 'unique_ips': 4, 'avg_pkt_size': 42.0}
+2025-04-12 12:10:05 | ALERT | {'score': -0.06, 'packets_sec': 1796.3, 'syn_sec': 0.6, 'total_packets': 17963, 'unique_ips': 7, 'avg_pkt_size': 54.8}
+2025-04-12 12:10:16 | ALERT | {'score': -0.05, 'packets_sec': 1768.2, 'syn_sec': 0.0, 'total_packets': 17682, 'unique_ips': 7, 'avg_pkt_size': 43.5}
+2025-04-12 12:10:26 | ALERT | {'score': -0.06, 'packets_sec': 1661.8, 'syn_sec': 0.0, 'total_packets': 16618, 'unique_ips': 7, 'avg_pkt_size': 42.2}
+2025-04-12 12:10:36 | ALERT | {'score': -0.05, 'packets_sec': 1795.1, 'syn_sec': 0.4, 'total_packets': 17951, 'unique_ips': 4, 'avg_pkt_size': 42.8}
+2025-04-12 12:10:46 | ALERT | {'score': -0.05, 'packets_sec': 1767.0, 'syn_sec': 0.0, 'total_packets': 17670, 'unique_ips': 4, 'avg_pkt_size': 42.0}
+2025-04-12 12:10:56 | ALERT | {'score': -0.05, 'packets_sec': 1742.9, 'syn_sec': 0.6, 'total_packets': 17429, 'unique_ips': 8, 'avg_pkt_size': 44.1}
+2025-04-12 12:11:07 | ALERT | {'score': -0.05, 'packets_sec': 1780.9, 'syn_sec': 0.9, 'total_packets': 17809, 'unique_ips': 10, 'avg_pkt_size': 44.4}
+2025-04-12 12:11:17 | ALERT | {'score': -0.05, 'packets_sec': 1778.6, 'syn_sec': 0.1, 'total_packets': 17786, 'unique_ips': 7, 'avg_pkt_size': 44.0}
+2025-04-12 12:11:27 | ALERT | {'score': -0.05, 'packets_sec': 1769.2, 'syn_sec': 0.2, 'total_packets': 17692, 'unique_ips': 8, 'avg_pkt_size': 42.3}
+2025-04-12 12:11:38 | ALERT | {'score': -0.05, 'packets_sec': 1732.2, 'syn_sec': 3.4, 'total_packets': 17322, 'unique_ips': 12, 'avg_pkt_size': 48.5}
+2025-04-12 12:11:48 | ALERT | {'score': -0.05, 'packets_sec': 1719.6, 'syn_sec': 0.2, 'total_packets': 17196, 'unique_ips': 8, 'avg_pkt_size': 42.5}
+2025-04-12 12:11:58 | ALERT | {'score': -0.06, 'packets_sec': 1690.5, 'syn_sec': 0.8, 'total_packets': 16905, 'unique_ips': 7, 'avg_pkt_size': 42.7}
+2025-04-12 12:12:09 | ALERT | {'score': -0.06, 'packets_sec': 1805.3, 'syn_sec': 3.0, 'total_packets': 18053, 'unique_ips': 12, 'avg_pkt_size': 59.0}
+2025-04-12 12:12:19 | ALERT | {'score': -0.06, 'packets_sec': 1705.7, 'syn_sec': 0.8, 'total_packets': 17057, 'unique_ips': 14, 'avg_pkt_size': 54.2}
+2025-04-12 12:12:29 | ALERT | {'score': -0.05, 'packets_sec': 1752.1, 'syn_sec': 0.2, 'total_packets': 17521, 'unique_ips': 6, 'avg_pkt_size': 42.4}
+2025-04-12 12:12:39 | ALERT | {'score': -0.05, 'packets_sec': 1768.2, 'syn_sec': 0.0, 'total_packets': 17682, 'unique_ips': 4, 'avg_pkt_size': 42.0}
+2025-04-12 12:12:50 | ALERT | {'score': -0.05, 'packets_sec': 1670.4, 'syn_sec': 0.6, 'total_packets': 16704, 'unique_ips': 9, 'avg_pkt_size': 43.8}
+2025-04-12 12:13:00 | ALERT | {'score': -0.05, 'packets_sec': 968.0, 'syn_sec': 0.0, 'total_packets': 9680, 'unique_ips': 6, 'avg_pkt_size': 42.1}
+2025-04-12 12:13:10 | ALERT | {'score': -0.06, 'packets_sec': 1162.8, 'syn_sec': 0.0, 'total_packets': 11628, 'unique_ips': 2, 'avg_pkt_size': 42.0}
+2025-04-12 12:13:20 | ALERT | {'score': -0.06, 'packets_sec': 1221.0, 'syn_sec': 0.2, 'total_packets': 12210, 'unique_ips': 9, 'avg_pkt_size': 42.5}
+2025-04-12 12:13:30 | ALERT | {'score': -0.05, 'packets_sec': 1169.1, 'syn_sec': 0.0, 'total_packets': 11691, 'unique_ips': 7, 'avg_pkt_size': 42.7}
+2025-04-12 12:13:41 | ALERT | {'score': -0.05, 'packets_sec': 1164.8, 'syn_sec': 1.9, 'total_packets': 11648, 'unique_ips': 7, 'avg_pkt_size': 51.5}
+2025-04-12 12:13:51 | ALERT | {'score': -0.06, 'packets_sec': 1234.8, 'syn_sec': 1.5, 'total_packets': 12348, 'unique_ips': 13, 'avg_pkt_size': 53.8}
+2025-04-12 12:14:01 | ALERT | {'score': -0.07, 'packets_sec': 399.8, 'syn_sec': 12.2, 'total_packets': 3998, 'unique_ips': 50, 'avg_pkt_size': 265.5}

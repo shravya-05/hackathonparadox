@@ -1,0 +1,40 @@
+---
+name: "Build & Test MacPorts Base"
+
+on:
+  - push
+  - pull_request
+
+jobs:
+  build:
+    name: ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [macos-11, macos-12]
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 64
+      - name: Cleanup /usr/local
+        run: |
+          sudo mkdir /opt/local.old
+          sudo mv /usr/local/* /opt/local.old
+      - name: Configure MacPorts Base
+        run: |
+          set -eu
+          ./configure
+      - name: Build MacPorts Base
+        run: |
+          set -eu
+          make -j$(sysctl -n hw.activecpu)
+      - name: Install MacPorts Base
+        run: |
+          set -eu
+          sudo make install
+      - name: Test MacPorts Base
+        run: |
+          set -eu
+          make test
