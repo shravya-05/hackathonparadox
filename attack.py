@@ -4,7 +4,7 @@ import random
 import time
 
 target_ip = "172.20.10.10"
-iface = "en0"
+iface = "lo0"
 
 def port_scan_simulation(target, ports=range(20, 100)):
     print("[*] Starting port scan simulation...")
